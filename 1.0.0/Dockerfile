@@ -12,4 +12,4 @@ RUN apt-get update \
     && ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 ENV LANG zh_CN.UTF-8
-ENV LC_ALL=en_US.UTF-8
+ENV LC_ALL zh_CN.UTF-8
